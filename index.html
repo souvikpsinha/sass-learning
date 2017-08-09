@@ -6,8 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts/script.js"></script>
 </head>
-<body>
-    <h2>Any thing you want to choose</h2>
+<body class="site">
+    <header id="site__main-header">
+        <header class="main-header__text-logo">
+            <img src="" />
+            <h2></h2>
+            <span></span>
+        </header>
+    </header>
+
+    <nav id="nav-bar">
+        <ul>
+            <li><a>home</a></li>
+            <li><a>about</a></li>
+            <li><a>portfolio</a></li>
+            <li><a>service</a></li>
+            <li><a>experiance</a></li>
+            <li><a>blog</a></li>
+            <li><a>contact</a></li>
+            <li><a><i class="fa fa-search"></i></a></li>
+        </ul>
+    </nav>
+
+    <section class="todolist-sec">
+        <div class="todolist-sec__bg">
+            <h1>To Do List</h1>
+            <input class="input-box" id="get-data" type="text" placeholder="Text here"/>
+            <span class="add-btn" id="add-list-btn" onclick="addList()">Add</span>
+        </div>
+        <div class="list-view">
+            <ul id="ul-test">            
+                <li class="view">This is Dummy Text</li>
+                <li class="view">This is Dummy Text 2</li>
+            </ul>
+        </div>
+    </section>
+    
 </body>
 </html>

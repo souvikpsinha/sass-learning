@@ -1,5 +1,48 @@
 $theme: #ccc;
+$rel: relative;
 
 body{
     background: $theme;
 }
+.site__main-header{
+    header{
+        img{
+            background-image: url();
+            width: 100%;
+        }
+    }
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+
+    &:hover {color:#c40101;}
+    &.active {}
+  }
+}
+.todolist-sec{
+    .todolist-sec__bg{
+        width: 50%;
+        background-color: #21AACC;
+        margin: 0 auto;
+        padding: 5px 50px 25px;
+
+        h1 {text-align: center; color: #f2f2f2;}
+        .input-box{height: 40px; width: 80%;}
+        span {display: block; color: #f1f1f1; width: 20%; height: 40px; text-align: center; background-color: #c20101;}
+    }
+}
+.list-view{
+    ul li{width: 50%; margin: 0 auto; list-style: none; padding: 5px; background-color: #f1f1f1; margin-bottom: 2px;}
+}
+.close{float: right; background-color: #21AACC;}

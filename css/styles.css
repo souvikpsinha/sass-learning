@@ -1,2 +1,52 @@
 body {
   background: #ccc; }
+
+.site__main-header header img {
+  background-image: url();
+  width: 100%; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  display: block;
+  padding: 6px 15px;
+  text-decoration: none; }
+  nav a:hover {
+    color: #c40101; }
+
+.todolist-sec .todolist-sec__bg {
+  width: 50%;
+  background-color: #21AACC;
+  margin: 0 auto;
+  padding: 5px 50px 25px; }
+  .todolist-sec .todolist-sec__bg h1 {
+    text-align: center;
+    color: #f2f2f2; }
+  .todolist-sec .todolist-sec__bg .input-box {
+    height: 40px;
+    width: 80%; }
+  .todolist-sec .todolist-sec__bg span {
+    display: block;
+    color: #f1f1f1;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    background-color: #c20101; }
+
+.list-view ul li {
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 5px;
+  background-color: #f1f1f1;
+  margin-bottom: 2px; }
+
+.close {
+  float: right;
+  background-color: #21AACC; }
